@@ -7,57 +7,62 @@ public class aula4 {
 
 	public static void main(String[] args) {
 
-		/*
-		 * Seção 4 Aula 23
-		 * 
-		 * //Impressão de caracteres na tela sem pular linha
-		 * System.out.print("Impressão sem pular linha - ");
-		 * System.out.print("nao pulou para próxima linha\n");
-		 * 
-		 * //Impressão com quebra de linha
-		 * System.out.println("Imprimiu e quebrou a linha");
-		 * System.out.println("- proxima linha");
-		 * 
-		 * //Declaração de variáveis Locale.setDefault(Locale.US); double salario =
-		 * 1.707; double despesas = 2.044; double renda; String nome = "Cesar"; int
-		 * idade = 48;
-		 * 
-		 * renda = salario / despesas;
-		 * 
-		 * System.out.
-		 * printf("O funcionario %s tem como salario %.3f , suas despesas sao de %.3f sua idade e de %d anos\n"
-		 * , nome, salario, despesas, idade );
-		 * 
-		 * //Varios elementos concatenados
-		 * //---------------------------------------------------------------------------
-		 * --// // Exercícios seção 4 aula 23 /* String product1 = "Computer"; String
-		 * product2 = "Office desktop";
-		 * 
-		 * int age = 30; int code = 5290; char gender = 'F';
-		 * 
-		 * double price1 = 2100.0; double price2 = 650.50; double measure = 53.234567;
-		 * 
-		 * System.out.println("Product:");
-		 * System.out.printf("%s, which price is $ %.2f \n%s, which price is $ %.2f",
-		 * product1, price1, product2, price2); System.out.println();
-		 * System.out.println();
-		 * 
-		 * System.out.printf("Record: %d years old, code %d and gender: %c", age, code,
-		 * gender);
-		 * 
-		 * System.out.println(); System.out.println();
-		 * 
-		 * System.out.printf("Measue with eight decimal places: %.8f\n", measure);
-		 * System.out.printf("Rouded (three decimals places) %.3f\n", measure);
-		 * 
-		 * System.out.println("Alter the decimal point with Locale.setDefault");
-		 * Locale.setDefault(Locale.US); System.out.printf("US decimal point %.3f",
-		 * measure);
-		 * 
-		 */
+		
+		//Seção 4 Aula 23
+		  
+		//Impressão de caracteres na tela sem pular linha
+		System.out.print("Impressão sem pular linha - ");
+		System.out.print("nao pulou para próxima linha\n");
+		  
+		//Impressão com quebra de linha
+		System.out.println("Imprimiu e quebrou a linha");
+		System.out.println("- proxima linha");
+		  
+		//Declaração de variáveis 
+		Locale.setDefault(Locale.US); 
+		
+		double salario = 1.707; 
+		double despesas = 2.044; 
+		double renda; 
+		String nome = "Name"; 
+		int idade = 48;
+		int renda = salario / despesas;
+		System.out.printf("O funcionario %s tem como salario %.3f , suas despesas sao de %.3f sua idade e de %d anos\n"
+		, nome, salario, despesas, idade );
+		//Varios elementos concatenados
+		
+		//---------------------------------------------------------------------------
+		
+		// Exercícios seção 4 aula 23 /* String product1 = "Computer"; String
+		product2 = "Office desktop";
+		
+		int age = 30; 
+		int code = 5290; 
+		char gender = 'F';
+		double price1 = 2100.0; 
+		double price2 = 650.50; 
+		double measure = 53.234567;
+		System.out.println("Product:");
+		System.out.printf("%s, which price is $ %.2f \n%s, which price is $ %.2f",
+		product1, price1, product2, price2); System.out.println();
+		
+		System.out.println();
+		System.out.printf("Record: %d years old, code %d and gender: %c", age, code,
+		gender);
+		System.out.println(); 
+		System.out.println();
+		System.out.printf("Measue with eight decimal places: %.8f\n", measure);
+		System.out.printf("Rouded (three decimals places) %.3f\n", measure);
+		System.out.println("Alter the decimal point with Locale.setDefault");
+		
+		Locale.setDefault(Locale.US); 
+		System.out.printf("US decimal point %.3f", measure);
+		
 		// ----------------------------------------------------------------------------------------------------//
+		
 		// Seção 4 aula 24 Casting, saida de dados
-		/*int x, y;
+		
+		int x, y;
 		x = 5;
 		y = x * 2;
 		System.out.println(x);
@@ -126,6 +131,7 @@ public class aula4 {
 		sc.nextLine();//É preciso consumir o enter antes de receber novos valores
 		
 		//Ler uma cadeia de caracteres com espaço antes do enter
+		
 		String s1, s2, s3;
 		s1 = sc.nextLine();
 		s2 = sc.nextLine();
@@ -136,7 +142,7 @@ public class aula4 {
 		System.out.println(s3);
 
 		sc.close();
-		*/
+		
 		// Seção 4 aula 27 Funções matemáticas
 		
 		double y, x;
@@ -159,9 +165,7 @@ public class aula4 {
 		x1 = (-b + Math.sqrt(delta) / 2 * a);
 		x2 = (b + Math.sqrt(delta) / 2 * a);
 		System.out.printf("Valor de x1: %.2f valor de x2: %.2f",x1, x2);
-		
-		
-		
+			
 	}
 
 }
